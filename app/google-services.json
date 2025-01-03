@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "539363857389",
+    "project_id": "knownow-3b153",
+    "storage_bucket": "knownow-3b153.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539363857389:android:83d2f9edd363b67f04cde4",
+        "android_client_info": {
+          "package_name": "com.example.knownow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFYSfVvWjlFpVccXaMkSQP48mGiMUuVR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center">
+
+    <!-- Email Label -->
+    <TextView
+        android:id="@+id/emailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email *"
+        android:textColor="#FF0000"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Email EditText -->
+    <EditText
+        android:id="@+id/signupEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Email input field"
+        android:hint="Enter your email"
+        android:importantForAccessibility="yes"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        tools:ignore="EditableContentDescCheck" />
+
+    <!-- Error TextView for Email (Initially Hidden) -->
+    <TextView
+        android:id="@+id/emailError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter a valid email (e.g., example@gmail.com)"
+        android:textColor="#FF0000"
+        android:textSize="14sp"
+        android:visibility="gone"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Password Label -->
+    <TextView
+        android:id="@+id/passwordLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password *"
+        android:textColor="#FF0000"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Password EditText -->
+    <EditText
+        android:id="@+id/signupPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Confirm Password Label -->
+    <TextView
+        android:id="@+id/confirmPasswordLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password *"
+        android:textColor="#FF0000"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Confirm Password EditText -->
+    <EditText
+        android:id="@+id/signupConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm your password"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Error TextView for Password Confirmation (Initially Hidden) -->
+    <TextView
+        android:id="@+id/passwordConfirmError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your password carefully"
+        android:textColor="#FF0000"
+        android:textSize="14sp"
+        android:visibility="gone"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"/>
+
+</LinearLayout>
